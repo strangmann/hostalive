@@ -11,9 +11,9 @@ int main(int argc, char *argv[]) {
 
     if (status == 0) {
         printf("Host %s is alive.\n", hostname);
+        return 0;
     } else {
         printf("Host %s is not reachable.\n", hostname);
+        return 2;
     }
-
-    return 0;
 }
