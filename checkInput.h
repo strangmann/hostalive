@@ -1,0 +1,1 @@
+extern int checkInput(int anzahlEingabeArray, char *eingabeArray[], char **hostname);
