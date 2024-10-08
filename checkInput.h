@@ -1,1 +1,1 @@
-extern int checkInput(int anzahlEingabeArray, char *eingabeArray[], char **hostname);
+extern int checkInput(int argc, char *argv[], char **hostname);
